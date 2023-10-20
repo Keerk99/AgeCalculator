@@ -13,6 +13,7 @@ const Label = styled.label`
   color: ${(props) => (props.$error ? "red" : "black")};
   letter-spacing: 2px;
   font-size: 1rem;
+  color: #716f6f;
   @media screen and (min-width: 425px) and (max-width: 767px) {
     font-size: 0.9rem;
   }
