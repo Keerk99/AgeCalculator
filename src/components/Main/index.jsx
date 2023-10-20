@@ -131,7 +131,7 @@ const Img = styled.img`
 `;
 
 const Span = styled.span`
-  color: red;
+  color: #ff0000;
   font-style: italic;
   font-size: 0.9rem;
   @media screen and (min-width: 425px) and (max-width: 767px) {

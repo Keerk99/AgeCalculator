@@ -10,10 +10,9 @@ const InputContainer = styled.div`
 `;
 
 const Label = styled.label`
-  color: ${(props) => (props.$error ? "red" : "black")};
+  color: ${(props) => (props.$error ? "#FF0000" : "#716f6f")};
   letter-spacing: 2px;
   font-size: 1rem;
-  color: #716f6f;
   @media screen and (min-width: 425px) and (max-width: 767px) {
     font-size: 0.9rem;
   }
@@ -23,7 +22,7 @@ const Label = styled.label`
 `;
 
 const InputText = styled.input`
-  border: 1px solid ${(props) => (props.$error ? "red" : "#dcdcdc")};
+  border: 1px solid ${(props) => (props.$error ? "#FF0000" : "#dcdcdc")};
   outline-color: #854dff;
   padding: 1rem 1.5rem;
   border-radius: 0.8rem;
